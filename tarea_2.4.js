@@ -5,13 +5,24 @@ Divide a con c
 Reemplaza el valor de c con el módulo de c y b
 Imprimir los tres números en consola */
 
-let a = 0, b = 0, c = 0;
-let z = Number(a);
-let x = Number(b);
-let v = Number(c);
+// Crear las variables
+var a = 10;
+var b = 5;
+var c = 2;
 
-if (z && x && v) {
-      
-}
+// Sumar b a a
+a += b;
+
+// Dividir a por c
+a /= c;
+
+// Reemplazar el valor de c con el módulo de c y b
+c = c % b;
+
+// Imprimir los tres números en la consola
+console.log("El valor de a es: " + a);
+console.log("El valor de b es: " + b);
+console.log("El valor de c es: " + c);
+
 /*alguno comandos imprtantes
 git add , git commit -m "", git push origin lamarama, git status8*/
