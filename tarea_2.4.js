@@ -6,9 +6,9 @@ Reemplaza el valor de c con el módulo de c y b
 Imprimir los tres números en consola */
 
 // Crear las variables
-let a = 10;
-let b = 5;
-let c = 2;
+let a = 10;     //let a = prompt("coloca el valor para a")
+let b = 5;      //let b = prompt("coloca el valor para b")
+let c = 2;      //let c = prompt("coloca el valor para c")
 
 // Sumar b a a
 a += b;
