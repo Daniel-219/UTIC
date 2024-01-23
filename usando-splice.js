@@ -24,4 +24,14 @@ arrDeFiguras.splice(2, 1, "rombo");
 console.log(arrDeFiguras);
 
 //borrrar elemtos
+debugger;
 arrDeFiguras.splice(2 , 4, "hexagono");
+
+//borrar el ultimo 
+arrDeFiguras.pop();
+console.log(arrDeFiguras);
+
+// borrar el primero
+arrDeFiguras.shift();
+console.log(arrDeFiguras);
+
