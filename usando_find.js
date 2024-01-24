@@ -35,3 +35,9 @@ recibiendoFuncionAnonima();
 decirNombre("Abigails");
 const nombreDeMascota = dameElNombreDeMiMascota("firulais");
  
+//al fin vamos a usar find
+const frutas = ["pomelo", "manzana", "bananas"];
+const frutaEncontrada = frutas.find(function(fruta){return fruta === "pomelo"});
+const frutaEncontradaConFlecha = frutas.find ((fruta)=> fruta === "pomelo");
+console.log (frutaEncontrada);
+console.log (frutaEncontradaConFlecha);
