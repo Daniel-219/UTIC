@@ -35,7 +35,14 @@ const yeti = {
     , tieneYetimitas: false
     , nroDeYetimitas: 0
     , velocidad: 0
-    , multiplicarYetimitas: function (){}
+    , multiplicarYetimitas: function (){
+        if(this.tieneYetimitas){
+            this.nroDeYetimitas+=2;
+        }else{
+            console.log(`No tiene yetimitas, valor de yetimitas ${this.tieneYetimitas}`)
+        }
+
+    }
     , ganarNiveles: ()=>{}
     , moverseAVelocidad: function(){}
     , recibirDanho:()=>{}
@@ -46,6 +53,9 @@ yeti.tieneMascara = true;
 yeti.nroDeCuernos = 2;
 yeti.nroDeExtremidades = 4;
 yeti.peso = 500;
+
+yeti.tieneYetimitas = true 
+yeti.multiplicarYetimitas();
 
 
 console.log(yeti);
