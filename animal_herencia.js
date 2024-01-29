@@ -22,7 +22,7 @@ class Pez extends Animal {
     }
 }
 
-class Peptil extends Animal {
+class Peptil extends Animal  {
     constructor(patas) {
         //cuando se hace herencia, es obligatorio esto
         super (patas);
