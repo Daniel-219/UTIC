@@ -40,4 +40,4 @@ class Bollo extends MasaConfiteria {
     }
 }
 const bolloCrema = new Bollo("dulce de leche","mediano",250,"esponjoso");
-console.log(bolloCrema.)
+console.log(bolloCrema.textura);
